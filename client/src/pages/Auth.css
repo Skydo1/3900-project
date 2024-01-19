@@ -1,0 +1,26 @@
+.Auth {
+    text-align: left;
+    display: grid;
+    min-height: 10vh;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.Login, .Register, .Payment {
+    display: grid;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.link_reset {
+    margin: 0rem 0;
+    background: none;
+    color:#333;
+    text-decoration: underline;
+}
+
+.link_btn {
+    background: none;
+    color: antiquewhite;
+    text-decoration: underline;
+}

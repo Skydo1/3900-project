@@ -1,0 +1,102 @@
+
+.input-label {
+  font-weight: bold;
+  margin-bottom: 0.5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input-field {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.pay-button {
+  background-color: #94618E;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 300px;
+  height: 50px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 0px;
+}
+
+.payment-container {
+  padding: 1px;
+  background-color:white;
+  height: fit-content;
+  width: 600px;
+  line-height: 5px;
+  margin-left: 20px;
+}
+
+.payment-container h3 {
+  position: relative;
+  left: 20px;
+}
+
+.small-bar {
+  display: flex;
+  background-color: #94618E;
+  color: white;
+  font-size: 30px;
+  height: 30px;
+  font-family: "Arial", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.booking-container {
+  padding: 1px;
+  background-color:white;
+  height: 120px;
+  width: 900px;
+  line-height: 5px;
+  margin-left: -10px;
+  padding-bottom: 40px; 
+  
+}
+
+.booking-container h3 {
+  position: relative;
+  left: 20px;
+}
+
+.cancel-button {
+  background-color: rgb(193, 19, 19);
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+.go-home-button {
+  background-color: #94618E;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 650px;
+  height: 50px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 0px;
+}

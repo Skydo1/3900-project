@@ -1,0 +1,136 @@
+   .search-page {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    background-color: #94618e;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .results-list {
+    list-style: none;
+    flex-direction: column;
+    padding: -100px;
+    margin-left: -20px;
+  }
+  
+  .result-item {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    margin-left: -20px;
+  }
+  
+  .result-title {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   background-color: #B284BE;
+   color: #fff;
+   height: 40px;
+   font-size: 20px;
+   width: 750px;
+   margin-bottom: 0;
+  }
+
+  .result-container {
+    display: flex;
+    background-color: #fff;
+  }
+  
+  .result-details {
+    flex-direction: column;
+    margin-left: 1vh;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .result-details h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .search-img {
+    object-fit: cover;
+    height: 12vh;
+    width: 30%;
+  }
+  
+  .cancel-button {
+    background-color: rgb(193, 19, 19);
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .search-bar {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .search-bar input,
+    .search-bar select {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+
+  .filter-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:80px;
+}
+.filter-button button {
+  background-color: #94618e;
+  color: #fff;
+  padding: 0px ;
+  font-weight: small;
+  border-radius: 10px;
+  font-family: "Arial", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.none-title {
+display: grid;
+ align-items: center;
+ justify-content: center; 
+ background-color: #350d50;
+ color: #fff;
+ font-size: 25px;
+}
+

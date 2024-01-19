@@ -1,0 +1,134 @@
+/* Chatbot container styles */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #edcee6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: width 0.3s;
+    z-index: 9999;
+    padding-bottom: 120px;
+  }
+  
+  /* Large chatbox styles */
+  .large {
+    width: 500px;
+    height: 400px;
+  }
+  
+  /* Chatbox styles */
+  .chatbox {
+    max-height: 400px; /* Set a maximum height for the chatbox */
+    overflow-y: auto; /* Enable vertical scrolling when the content overflows */
+    padding: 10px; /* Add some padding for better appearance */
+  }
+  
+  /* Message styles */
+  .message {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* User message styles */
+  .user {
+    color: blue;
+    text-align: right;
+  }
+  
+  /* Bot message styles */
+  .bot {
+    color: green;
+  }
+  
+  /* Input container styles */
+  .input-container {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px; /* Add some space between the chatbox and the input container */
+    position: sticky; /* Add sticky positioning */
+    bottom: 0; /* Stick to the bottom */
+    background-color: #edcee6; /* Add a background color for better visibility */
+    padding: 10px; /* Add some padding for better appearance */
+    z-index: 1; /* Ensure that the input and buttons are on top of the chat history */
+  }
+  
+  /* Input styles */
+  input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 5px 10px;
+  }
+  
+  /* Common phrases styles */
+  .common-phrases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+    position: sticky; /* Add sticky positioning */
+    bottom: 0; /* Stick to the bottom */
+    background-color: #edcee6; /* Add a background color for better visibility */
+    padding: 10px; /* Add some padding for better appearance */
+    z-index: 1; /* Ensure that the buttons are on top of the chat history */
+  
+  }
+  
+  /* Common phrase button styles */
+  .common-phrase-btn {
+     background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 0px 0px;
+    width:100px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover styles for common phrase button */
+  .common-phrase-btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Focus styles for common phrase button */
+  .common-phrase-btn:focus {
+    outline: none;
+  }
+  
+  /* Open button styles */
+  .open-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #dba4d1;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover styles for open button */
+  .open-button:hover {
+    background-color: #ddd;
+  }
+  
+  .chattext {
+    padding-left: 20px;
+    font-weight: bold; /* Add font-weight property to make the text bold */
+    font-size: 26px; 
+    text-align: center;
+    color:#94618E;
+    ;
+  }

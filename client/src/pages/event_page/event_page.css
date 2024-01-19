@@ -1,0 +1,117 @@
+.event-details {
+    display: flex;
+}
+
+.button-container {
+    margin-left: auto;
+}
+
+.join-button {
+    margin-left: auto;
+    background-color: #ff5349;
+    margin-block: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    width: fit-content;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.join-button:hover {
+    background-color: #b4322b;
+
+}
+
+.review-input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 900px;
+    height: 80px;
+  }
+  
+  .review-container {
+    position: relative;
+    left: 30px;
+  }
+  
+  .rating-container {
+    text-align:left;
+    margin-top: 20px;
+  }
+  
+  .stars {
+    font-size: 30px;
+  }
+  
+  .star {
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .star.selected {
+    color: gold;
+  }
+  
+  .comment-button {
+    background-color: #94618E;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: "Arial", sans-serif;
+    margin-top: 30px;
+    margin-left: 800px;
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  /* .single-review {
+    max-width: 600px;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+  } */
+  
+  
+  .single-review {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:white;
+    width: 900px;
+    word-wrap: break-word;
+    border-radius: 10px;
+  }
+  
+  .reply-button {
+    background-color: #94618E;
+    color: #fff;
+    padding: 0px 0px;
+    font-family: "Arial", sans-serif;
+  
+    margin-left: 830px;
+    height: 20px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .sort-button {
+    background-color: #94618E;
+    color: #fff;
+    padding: 0px 0px;
+    font-family: "Arial", sans-serif;
+    margin-right: 10px; 
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .sort-button-container {
+    display: flex;
+    margin-left: 30px;
+  }

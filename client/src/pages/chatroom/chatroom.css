@@ -1,0 +1,240 @@
+.split-screen {
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+.left-pane {
+    background-color: #FFF;
+    height: 91vh;
+    overflow-y: scroll;
+}
+.right-pane {
+    height: 91vh;
+    overflow-y: scroll;
+}
+
+.chat-top {
+    background-color: #B284BE;
+    height: 4vh;
+    position: fixed;
+    width: 79%;
+}
+
+.chat-bottom {
+    display: flex;
+    background-color: #94618E;
+    height: 10vh;
+    position: fixed;
+    bottom:0%;
+    width: 79%;
+}
+
+.space {
+    height: 7vh; 
+}
+
+.tiny-space {
+    height: 4px; 
+}
+
+/* talk bubble contents */
+.chat-content {
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+    font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+    margin: 40px;
+    width: fit-content;
+    max-width: 60vh;
+    height: fit-content;
+}
+
+.chat-content p, h4{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+.round{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+}
+.chat-left {
+    background-color: lightblue;
+}
+
+.chat-right {
+    background-color: lightgreen;
+    margin-left: auto;
+}
+
+.chat-pin {
+    background-color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chat-group {
+    height: fit-content;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.chat-group h2{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    font-size: 25px;
+    text-transform: none;
+}
+
+.chat-group:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.settings {
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+    margin-left: 0.3%;
+}
+
+.message-box {
+    padding: 3px;
+    padding-left: 10px;
+    width: 85%;
+    height: 40%;
+    font-size: medium;
+    margin-top: 2.5vh;
+    margin-left: 2%;
+}
+
+.emoji {
+    height: 5vh;
+    width: 5vh;
+    margin-top: 2.5vh;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.send {
+    height: 5vh;
+    width: 5vh;
+    margin-top: 2.5vh;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+.group-name-container{
+    margin-top: 8vh;
+    background-color: #fff;
+    padding: 4vh;
+    width: 120vh;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+}
+
+.group-name {
+    background-color: lightgrey;
+    width: 80vh;
+    margin: auto;
+}
+
+.group-name-label {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    margin-right: 0;
+}
+
+.group-name-change {
+    width: fit-content;
+    padding: 1.5vh;
+    margin: auto;
+    margin-left: 1;
+    background-color: #B284BE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.group-name-change:hover {
+    background-color: #94618E;
+}
+
+.group-members-container {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: #fff;
+    padding: 4vh;
+    width: 120vh;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.group-members-container h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.group-members-container h4 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 2vh;
+}
+
+.group-create-button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff5349;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    font-weight: bold;
+    width: fit-content;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.group-create-button:hover {
+    background-color: #b4322b;
+}
+
+.create-chat {
+    text-align: center;
+    margin-top: 7vh;
+    font-size: 6vh;
+}
+
+.member-container {
+    display: flex;
+}
+
+.member-button {
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #ff5349;
+    font-weight: bold;
+    height: fit-content;
+    width: fit-content;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh;
+    margin-top: auto;
+}
+
+.member-button:hover {
+    background-color: #b4322b;
+}
+
+.member-button-container {
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.message-edit-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+}

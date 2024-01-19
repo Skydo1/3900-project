@@ -1,0 +1,73 @@
+.banner-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.seatmap {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    object-fit: cover;
+    height: 60vh;
+    width: auto;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 22.5vh;
+    left: 2%;
+    height: 20vh;
+    width: 2%;
+    display: flex;
+    cursor: pointer;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 22.5vh;
+    left: 96%;
+    height: 20vh;
+    width: 2%;
+    display: flex;
+    cursor: pointer;
+}
+
+.eTitle{
+    position: absolute;
+    top: 55vh;
+    left: 4%;
+    display: flex;
+    font-size: 50px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #B284BE;
+}
+
+.calendar {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fc-button.fc-prev-button, .fc-button.fc-next-button, .fc-button.fc-button-primary {
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
